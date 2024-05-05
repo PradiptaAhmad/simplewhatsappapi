@@ -14,8 +14,8 @@ import * as otpController from './controllers/otp';
 import * as qrController from './controllers/qr';
 import * as statusController from './controllers/status';
 
-// // Connect Database
-// databaseConnect(DB_CONNECTION_STRING);
+// Connect Database
+databaseConnect(DB_CONNECTION_STRING);
 
 // Create Express Server
 const app = express();
